@@ -102,7 +102,7 @@ export default () => {
       </Header>
       <StyledTabs index={tabIndex} onChange={index => setTabIndex(index)}>
         <StyledTabList>
-          <StyledTab>Notes</StyledTab>
+          <StyledTab>Feed Notes</StyledTab>
           <StyledTab>Record</StyledTab>
         </StyledTabList>
         <StyledTabPanels>
